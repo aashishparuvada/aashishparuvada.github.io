@@ -7,7 +7,7 @@
 
   /*========== Colors ==========*/
   /* Change favorite color */
-  --hue-color: 210; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
+  --hue-color: 250; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
 
   /* HSL color mode */
   --first-color: hsl(var(--hue-color), 69%, 61%);
@@ -302,7 +302,8 @@ img{
 
 .home__blob-img{
   width: 170px;
-  transform: translateY(-20px);
+  transform: translateY(40px);
+  transform: translateX(10px);
 }
 
 .home__data{
@@ -533,14 +534,17 @@ img{
   width: 70%;
 }
 
-.skills__photoshop{
-  width: 60%;
-}
-.skills__figma{
+.skills__agile{
   width: 80%;
 }
-.skills__sketch{
-  width: 75%;
+.skills__scrum{
+  width: 80%;
+}
+.skills__stakeholdermanagement{
+  width: 70%;
+}
+.skills__plcm{
+  width: 90%;
 }
 
 .skills__close .skills__list{
